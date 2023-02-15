@@ -1,7 +1,8 @@
 document.addEventListener("DOMContentLoaded", function() {
 
-    
-    //HERO
+/************************************HERO*****************/
+
+
     const heroSection = document.querySelector(".hero")
     
     const heroImage = document.createElement("img")
@@ -36,6 +37,49 @@ document.addEventListener("DOMContentLoaded", function() {
      exploreBTN.classList.add("exploreBTN")
      exploreBTN.innerHTML = `<img src="${hero.icon}">`
      exploreBTN.innerHTML += '<p>Explore</p>'
+
+
+
+
+
+    /*******************************SERVICES******************************/
+
+
+    const serviceSection = document.querySelector(".services")
+    services.forEach(element => {
+
+
+        let serviceDiv = document.createElement("div")
+        serviceSection.appendChild(serviceDiv)
+        serviceDiv.classList.add("serviceDiv")
+
+
+        let serviceImage = document.createElement("img")
+        serviceDiv.appendChild(serviceImage)
+        serviceImage.src = element.illustration  
+        serviceImage.classList.add("serviceImage")
+
+
+        let serviceHeadline = document.createElement("h4")
+        serviceDiv.appendChild(serviceHeadline)
+        serviceHeadline.textContent = element.headline 
+        serviceHeadline.classList.add("serviceHeadline")
+
+
+        let serviceText = document.createElement("p")
+        serviceDiv.appendChild(serviceText)
+        serviceText.textContent =  element.text  
+        serviceText.classList.add("serviceText")
+
+
+        let serviceLinkText = document.createElement("h5")
+        serviceDiv.appendChild(serviceLinkText)
+        serviceLinkText.textContent =  element.linktext
+        serviceLinkText.classList.add("serviceLinkText")
+
+
+    })
+
 
     // slå dig løs her... 
 

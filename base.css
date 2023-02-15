@@ -67,3 +67,50 @@ body{
     margin-left: 30px;
     color: white;
 }
+
+
+
+/*******************************************SERVICES*******************************/
+.services{
+    margin-top: 70vh;   
+    font-family: var(--base-font); 
+    /* border: 10px solid red; */
+}
+.serviceDiv{
+    height: 100vh;
+   
+}
+
+.serviceImage{
+    width: 222.82px;
+    height: 180px;
+    margin-bottom: 10vh;
+}
+
+.serviceHeadline{
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+    width: 386px;
+    height: 224px;
+}
+.serviceText{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    width: 386px;
+    height: 224px;
+}
+.serviceLinkText{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #F78065;
+    width: 386px;
+    height: 224px;  
+} 
+
+
