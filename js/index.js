@@ -81,6 +81,51 @@ document.addEventListener("DOMContentLoaded", function() {
     })
 
 
+    /******************************************facilities************************/
+    const facilitieSection = document.querySelector(".facilities")
+    const facilities_Headline = document.createElement("h3")
+    facilitieSection.appendChild(facilities_Headline)
+    facilities_Headline.classList.add("facilities_Headline")
+    facilities_Headline.textContent = facilities.headline
+
+    const facilitie_Big_DIV = document.createElement("div")
+    facilitieSection.appendChild(facilitie_Big_DIV)
+    facilitie_Big_DIV.classList.add("facilitie_Big_DIV")
+    facilities.options.forEach(element => {
+
+
+        let facilities_Div = document.createElement("div")
+        facilitie_Big_DIV.appendChild(facilities_Div)
+        facilities_Div.classList.add("facilities_Div")
+
+
+        let facilities_Image = document.createElement("img")
+        facilities_Div.appendChild(facilities_Image)
+        facilities_Image.src = element.icon  
+        facilities_Image.classList.add("facilities_Image")
+
+
+        let facilities_Small_headline = document.createElement("h4")
+        facilities_Div.appendChild(facilities_Small_headline)
+        facilities_Small_headline.textContent = element.headline 
+        facilities_Small_headline.classList.add("facilities_Small_headline")
+
+
+        let facilities_Text = document.createElement("p")
+       facilities_Div.appendChild(facilities_Text)
+       facilities_Text.textContent =  element.text  
+        facilities_Text.classList.add("facilities_Text")
+
+
+        let facilities_LinkText = document.createElement("h5")
+       facilities_Div.appendChild(facilities_LinkText)
+       facilities_LinkText.innerText = "Show me more"
+      facilities_LinkText.classList.add("facilities_LinkText")
+
+
+    })
+
+
     // slå dig løs her... 
 
     //eksempel på at udskrive alle overskrifter i services i konsollen:

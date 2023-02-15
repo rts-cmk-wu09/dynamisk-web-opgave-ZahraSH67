@@ -25,3 +25,20 @@
 }
 
 
+/***************************************FACILITIES*******************************/
+.facilitie_Big_DIV{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.facilities_Div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+
+

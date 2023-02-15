@@ -114,3 +114,60 @@ body{
 } 
 
 
+/*********************************************FACILITIES***************************/
+.facilities{
+    /* border: 10px solid red; */
+    margin-top: 20vh;
+    font-family: var(--base-font);
+    /* height: 80vh; */
+}
+.facilities_Div{
+    height: 80vh;
+}
+.facilities_Headline{
+width: 758px;
+height: 45px;
+font-family: var(--base-font);
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 45px;
+color: #000000;
+padding-left: 7vw;
+margin-bottom: 10vh;
+}
+.facilities_Image{
+    width: 32px;
+    height: 32px;
+}
+.facilities_Small_headline{
+    width: 275px;
+    height: 28px;
+    font-family: var(--base-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+}
+.facilities_Text{
+    width: 275px;
+    height: 48px;
+    font-family: var(--base-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.facilities_LinkText{
+    color: #F78065;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+
