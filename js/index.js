@@ -82,6 +82,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
     /******************************************facilities************************/
+
+
     const facilitieSection = document.querySelector(".facilities")
     const facilities_Headline = document.createElement("h3")
     facilitieSection.appendChild(facilities_Headline)
@@ -122,8 +124,85 @@ document.addEventListener("DOMContentLoaded", function() {
        facilities_LinkText.innerText = "Show me more"
       facilities_LinkText.classList.add("facilities_LinkText")
 
+    })
+
+
+/************************************************sites**********************/
+    const siteSection = document.querySelector(".sites")
+
+    const site_divWrapper1 = document.createElement("div")
+    siteSection.appendChild(site_divWrapper1)
+    siteSection.appendChild(site_divWrapper1)
+    site_divWrapper1.classList.add("site_divWrapper1")
+
+   
+
+    const site__divWrapper1_Headline = document.createElement("h3")
+   site_divWrapper1.appendChild(site__divWrapper1_Headline)
+   site__divWrapper1_Headline.classList.add("site__divWrapper1_Headline")
+   site__divWrapper1_Headline.textContent = sites.headline
+
+
+   const site_divWrapper1_text = document.createElement("p")
+   site_divWrapper1.appendChild(site_divWrapper1_text)
+   site_divWrapper1_text.classList.add("site_divWrapper1_text")
+   site_divWrapper1_text.textContent = sites.text
+
+
+   const site_divWrapper1_button = document.createElement("button")
+   site_divWrapper1.appendChild(site_divWrapper1_button)
+   site_divWrapper1_button.classList.add("site_divWrapper1_button")
+   site_divWrapper1_button.innerHTML = `<img src="${sites.btnicon}">`
+    site_divWrapper1_button.innerHTML += '<p>Explore</p>'
+
+
+
+
+     const site_Second_divWrapper = document.createElement("div")
+    siteSection.appendChild(site_Second_divWrapper)
+    site_Second_divWrapper.classList.add("site_Second_divWrapper")
+    sites.places.forEach(element => {
+        let sites_places_Div = document.createElement("div")
+        site_Second_divWrapper.appendChild(sites_places_Div)
+        sites_places_Div.classList.add("sites_places_Div")
+
+        let sites_places_Image = document.createElement("img")
+        sites_places_Div.appendChild(sites_places_Image)
+        sites_places_Image.classList.add("sites_places_Image")
+        sites_places_Image.src = element.img
+
+
+        let sites_places_Name = document.createElement("h4")
+        sites_places_Div.appendChild(sites_places_Name)
+        sites_places_Name.classList.add("sites_places_Name")
+        sites_places_Name.textContent = element.name
+
+
+        let sites_places_City = document.createElement("p")
+        sites_places_Div.appendChild(sites_places_City)
+        sites_places_City.classList.add("sites_places_City")
+        sites_places_City.textContent = element.city
+
+
+        let sites_places_Link = document.createElement("p")
+        sites_places_Div.appendChild(sites_places_Link)
+        sites_places_Link.classList.add("sites_places_Link")
+        sites_places_Link.innerText = "View the site"
 
     })
+
+
+  
+
+
+
+
+
+
+
+
+
+   
 
 
     // slå dig løs her... 

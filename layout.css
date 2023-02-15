@@ -41,4 +41,32 @@
 }
 
 
+/*********************************************************SITES****************************************/
+.sites{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.site_divWrapper1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.site_divWrapper1_button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.site_Second_divWrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.sites_places_Div{
+    display: flex;
+    flex-direction: column;
+}
+
 
