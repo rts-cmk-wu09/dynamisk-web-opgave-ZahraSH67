@@ -192,6 +192,46 @@ document.addEventListener("DOMContentLoaded", function() {
     })
 
 
+
+    /***********************************advantages*****************************/
+    const advantageSection = document.querySelector(".advantages")
+
+    const advantages_Big_Headline = document.createElement("h3")
+    advantageSection.appendChild(advantages_Big_Headline)
+    advantages_Big_Headline.classList.add("advantages_Big_Headline")
+    advantages_Big_Headline.textContent = "Our Advantages"
+
+    let advantages_Big_Wrapper = document.createElement("div")
+    advantageSection.appendChild(advantages_Big_Wrapper)
+    advantages_Big_Wrapper.classList.add("advantages_Big_Wrapper")
+
+
+    advantages.forEach(element => {
+        let advantages_Small_Wrapper = document.createElement("div")
+        advantages_Big_Wrapper.appendChild(advantages_Small_Wrapper)
+        advantages_Small_Wrapper.classList.add("advantages_Small_Wrapper")
+
+
+        let advantages_Icons = document.createElement("img")
+        advantages_Small_Wrapper.appendChild(advantages_Icons)
+        advantages_Icons.classList.add("advantages_Icons")
+        advantages_Icons.src = element.icon
+
+
+        let advantages_Headline = document.createElement("h4")
+        advantages_Small_Wrapper.appendChild(advantages_Headline)
+        advantages_Headline.classList.add("advantages_Headline")
+        advantages_Headline.textContent = element.headline
+
+
+        let advantages_Text = document.createElement("p")
+        advantages_Small_Wrapper.appendChild(advantages_Text)
+        advantages_Text.classList.add("advantages_Text")
+        advantages_Text.textContent = element.text
+
+    })
+
+
   
 
 

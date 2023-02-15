@@ -69,4 +69,10 @@
     flex-direction: column;
 }
 
-
+/***********************************Advantages***********************/
+.advantages_Big_Wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+}
