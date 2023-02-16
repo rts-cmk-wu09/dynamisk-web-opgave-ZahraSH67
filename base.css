@@ -7,6 +7,7 @@ body{
     max-width: 1440px;
     margin: 0 auto;
     position: relative;
+    font-family: var(--base-font);
 
 }
 /*****************************************HERO*************************/
@@ -27,11 +28,12 @@ body{
    top: 384px;
    background: #FFFFFF;
    box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.1);
+  
+
 }
 .headlineWithSpan{
     width: 521px;
     height: 147px;
-    font-family: 'Merriweather';
     font-style: normal;
     font-weight: 700;
     font-size: 39px;
@@ -40,6 +42,10 @@ body{
     margin-bottom: 40px;
     margin-top: 60px;
     margin-left: 30px;
+    padding-right: 1vw;
+    /* border: 1px solid green; */
+    text-align: justify;
+    
 }
 .span1{
    color: red;
@@ -56,6 +62,7 @@ body{
     opacity: 0.6;
    /* border: 1px solid red; */
    margin-left: 30px;
+   padding-right: 10vw;
 }
 .exploreBTN{
     border: none;
@@ -66,6 +73,10 @@ body{
     margin-top: 50px;
     margin-left: 30px;
     color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 125%;
 }
 
 
@@ -102,6 +113,7 @@ body{
     color: rgba(0, 0, 0, 0.5);
     width: 386px;
     height: 224px;
+    padding-right: 2vw; 
 }
 .serviceLinkText{
     font-style: normal;
@@ -110,7 +122,8 @@ body{
     line-height: 22px;
     color: #F78065;
     width: 386px;
-    height: 224px;  
+    height: 224px; 
+    padding-right: 2vw; 
 } 
 
 
@@ -120,9 +133,10 @@ body{
     margin-top: 20vh;
     font-family: var(--base-font);
     /* height: 80vh; */
+    margin-bottom: 40vh;
 }
 .facilities_Div{
-    height: 80vh;
+    height: 50vh;
 }
 .facilities_Headline{
 width: 758px;
@@ -133,7 +147,7 @@ font-weight: 700;
 font-size: 30px;
 line-height: 45px;
 color: #000000;
-padding-left: 7vw;
+padding-left: 4vw;
 margin-bottom: 10vh;
 }
 .facilities_Image{
@@ -181,8 +195,7 @@ margin-bottom: 10vh;
 }
 .site_divWrapper1{
     width: 325px;
-    /* border: 10px solid green; */
-   
+  
 }
 .site__divWrapper1_Headline{
     font-style: normal;
@@ -212,11 +225,16 @@ margin-bottom: 20px;
     background: #F78065;
     border: none;
     color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 125%;
 }
 
 .sites_places_Image{
     width: 230px;
     height: 418px;
+    margin-bottom: 10px;
 
 }
 .sites_places_Name{
@@ -227,18 +245,18 @@ margin-bottom: 20px;
     font-size: 24px;
     line-height: 30px;
     color: #000000;
-    margin-top: 10px;
+    /* margin-top: 10px; */
+    margin-bottom: 10px;
 
 }
 .sites_places_City{
-
     width: 47px;
     height: 17px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
-
+    margin-bottom: 10px;
     color: #3F3D56;
 
 }
@@ -257,8 +275,7 @@ margin-bottom: 20px;
 
 /*************************************************ADVANTAGES********************************/
 .advantages{
-    /* border:10px solid green; */
-    margin-top: 40vh;
+    margin-top: 20vh;
     height: 100vh;
 }
 .advantages_Big_Wrapper{
@@ -270,7 +287,7 @@ margin-bottom: 20px;
     padding-right: 8vw;
 }
 .advantages_Big_Headline{
-    width: 284px;
+    /* width: 284px; */
     height: 45px;
     font-style: normal;
     font-weight: 700;
@@ -304,6 +321,7 @@ margin-bottom: 20px;
     line-height: 24px;
     color: #000000;
     opacity: 0.5;
+    padding-right: 4vw;
 }
 
 

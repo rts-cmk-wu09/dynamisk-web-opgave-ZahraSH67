@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     const headlineArr  = hero.headline.split(" ")
     console.log(headlineArr)
-     const s1 = headlineArr.slice(0, headlineArr.indexOf("can")).join(" ")
+     const s1 = headlineArr.slice(0, headlineArr.indexOf("save")).join(" ")
      const s2 = headlineArr.slice(headlineArr.indexOf("save"), headlineArr.indexOf("in")).join(" ")
      const s3 = headlineArr.slice(headlineArr.indexOf("in"),headlineArr.length).join(" ")
      console.log(s1)
@@ -153,7 +153,7 @@ document.addEventListener("DOMContentLoaded", function() {
    site_divWrapper1.appendChild(site_divWrapper1_button)
    site_divWrapper1_button.classList.add("site_divWrapper1_button")
    site_divWrapper1_button.innerHTML = `<img src="${sites.btnicon}">`
-    site_divWrapper1_button.innerHTML += '<p>Explore</p>'
+    site_divWrapper1_button.innerHTML += '<p>Start</p>'
 
 
 
