@@ -1,0 +1,421 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+    font-family: var(--base-font);
+
+}
+/*****************************************HERO*************************/
+.hero{
+    width: 100%;
+    height: 650px;
+}
+.heroImage{
+   width: 100%;
+   height: 650px;
+   position: relative;
+}
+.introduction{
+   position: absolute;
+   width: 741px;
+    height: 537px;
+   left: 63px;
+   top: 384px;
+   background: #FFFFFF;
+   box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.1);
+  
+
+}
+.headlineWithSpan{
+    width: 521px;
+    height: 147px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 49px;
+    color: #000000;
+    margin-bottom: 40px;
+    margin-top: 60px;
+    margin-left: 30px;
+    padding-right: 1vw;
+    /* border: 1px solid green; */
+    text-align: justify;
+    
+}
+.span1{
+   color: red;
+}
+.headParaf{
+    width: 515px;
+    height: 96px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.6;
+   /* border: 1px solid red; */
+   margin-left: 30px;
+   padding-right: 10vw;
+}
+.exploreBTN{
+    border: none;
+    padding: 12px 24px 12px 16px;
+    width: 250px;
+    height: 65px;
+    background: #F78065;
+    margin-top: 50px;
+    margin-left: 30px;
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 125%;
+}
+
+
+
+/*******************************************SERVICES*******************************/
+.services{
+    margin-top: 70vh;   
+    font-family: var(--base-font); 
+    /* border: 10px solid red; */
+}
+.serviceDiv{
+    height: 100vh;
+   
+}
+
+.serviceImage{
+    width: 222.82px;
+    height: 180px;
+    margin-bottom: 10vh;
+}
+
+.serviceHeadline{
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+    width: 386px;
+    height: 224px;
+}
+.serviceText{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    width: 386px;
+    height: 224px;
+    padding-right: 2vw; 
+}
+.serviceLinkText{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #F78065;
+    width: 386px;
+    height: 224px; 
+    padding-right: 2vw; 
+} 
+
+
+/*********************************************FACILITIES***************************/
+.facilities{
+    /* border: 10px solid red; */
+    margin-top: 20vh;
+    font-family: var(--base-font);
+    /* height: 80vh; */
+    margin-bottom: 40vh;
+}
+.facilities_Div{
+    height: 50vh;
+}
+.facilities_Headline{
+width: 758px;
+height: 45px;
+font-family: var(--base-font);
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 45px;
+color: #000000;
+padding-left: 4vw;
+margin-bottom: 10vh;
+}
+.facilities_Image{
+    width: 32px;
+    height: 32px;
+}
+.facilities_Small_headline{
+    width: 275px;
+    height: 28px;
+    font-family: var(--base-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+}
+.facilities_Text{
+    width: 275px;
+    height: 48px;
+    font-family: var(--base-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.facilities_LinkText{
+    color: #F78065;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+
+/***********************************sites************************/
+.sites{
+    /* border: 10px solid red; */
+    font-family: var(--base-font);
+    height: 100vh;
+    margin-top: 20vh;
+}
+.site_divWrapper1{
+    width: 325px;
+  
+}
+.site__divWrapper1_Headline{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    color: #000000;
+   margin-bottom: 20px;
+
+}
+.site_divWrapper1_text{
+width: 325px;
+height: 66px;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+color: #000000;
+opacity: 0.5;
+margin-bottom: 20px;
+}
+.site_divWrapper1_button{
+    padding: 12px 24px 12px 16px;
+    gap: 4px;
+    width: 250px;
+    height: 65px;
+    background: #F78065;
+    border: none;
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 125%;
+}
+
+.sites_places_Image{
+    width: 230px;
+    height: 418px;
+    margin-bottom: 10px;
+
+}
+.sites_places_Name{
+    width: 225px;
+    height: 30px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+    /* margin-top: 10px; */
+    margin-bottom: 10px;
+
+}
+.sites_places_City{
+    width: 47px;
+    height: 17px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 10px;
+    color: #3F3D56;
+
+}
+.sites_places_Link{
+    width: 120px;
+    height: 22px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #F78065;
+
+}
+
+
+
+/*************************************************ADVANTAGES********************************/
+.advantages{
+    margin-top: 20vh;
+    height: 100vh;
+}
+.advantages_Big_Wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding-left: 8vw;
+    padding-right: 8vw;
+}
+.advantages_Big_Headline{
+    /* width: 284px; */
+    height: 45px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    color: #000000;
+    margin-bottom: 20vh;
+    padding-left: 2vw;
+}
+.advantages_Icons{
+    width: 32px;
+    height: 32px;
+    margin-bottom: 10vh;
+}
+.advantages_Headline{
+    width: 386px;
+    height: 28px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 10vh;
+}
+.advantages_Text{
+    width: 386px;
+    height: 96px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.5;
+    padding-right: 4vw;
+}
+
+
+/**********************************FOOTER******************************/
+.footerSection{
+    /* border: 10px solid red; */
+    font-family: var(--base-font);
+    width: 100%;
+    height: 575px;
+    background: #F7F7F7;
+}
+.footer_First_Wrapper{
+    border-bottom: 1px solid rgba(0,0,0, 0.2);
+    padding-bottom: 20vh;
+    margin-bottom: 5vh;
+}
+.footer_Big_Wrapper1{
+    margin-right: 80px;
+    padding-left: 40px;
+    padding-top: 60px;
+}
+.footer_First_Wrapper1_Headline{
+    width: 155px;
+    height: 30px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+.footer_First_Wrapper1_Text{
+    width: 304px;
+    height: 240px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #000000;
+}
+.footer_Big_Wrapper2{
+    gap: 60px;
+    padding-top: 60px;
+}
+
+.footer_defaultLinks_List{
+    /* width: 70%; */
+    height: 17px;
+}
+.footer_relevantLinks_firstLine{
+    width: 195px;
+    height: 23px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.footer_relevantLinks_Lines{
+    /* width: 117px; */
+    height: 17px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.footer_CopyRight{
+    /* width: 225px;
+    height: 27px; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    padding-left: 30px;
+    margin-right: 20vw;
+    /* border: 2px solid blue; */
+}
+
+.footer_Small_Wrapper2{
+    width: 50vw;
+}
+.footer_Last_List{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+    color: #000000;
+    list-style: none;
+}

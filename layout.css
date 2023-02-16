@@ -1,0 +1,108 @@
+/**************************************HERO***********************/
+.exploreBTN{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+
+
+/**********************************SERVICES*************************/
+.services{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.serviceDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+/***************************************FACILITIES*******************************/
+.facilitie_Big_DIV{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.facilities_Div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+
+/*********************************************************SITES****************************************/
+.sites{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.site_divWrapper1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.site_divWrapper1_button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.site_Second_divWrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.sites_places_Div{
+    display: flex;
+    flex-direction: column;
+}
+
+/***********************************Advantages***********************/
+.advantages_Big_Wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+/**********************************FOOTER******************************/
+.footer_First_Wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer_Big_Wrapper1{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_Big_Wrapper2{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.footer_defaultLinks_List{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_Second_Wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
